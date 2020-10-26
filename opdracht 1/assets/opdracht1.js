@@ -3,8 +3,9 @@
 //26-10-2020/Blok 1 Week 9 Lab 1.
 
 function HelloWorld(qty){
+    console.log(qty);
     for(i=0; i<qty; i++){
-        document.write("Hello World" + "<br/>");
+        document.write(i +' . ' + "Hello World" + "<br/>");
     }
 }
 
