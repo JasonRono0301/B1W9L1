@@ -41,9 +41,13 @@ division(144,12);
 
 
 function increment(number){
-    number = 12;
-    const a = i++;
-    uitkomst = number
+    document.write(number +' + 1' + ' = ' +  ++number + "<br>");
 }
 
-increment();
+increment(12);
+
+function decrement(number){
+    document.write(number +' - 1' + ' = ' + --number);
+}
+
+decrement(34)
