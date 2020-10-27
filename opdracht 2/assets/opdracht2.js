@@ -22,5 +22,28 @@ function subtraction(number1, number2){
 subtraction(58,34);
 
 function multiplication(number1, number2){
-    
+    uitkomst = number1 * number2;
+    document.write(number1 + ' x ' + number2 + ' = ' + uitkomst + "<br>");
+    console.log(uitkomst);
+    return number1 * number2;
 }
+
+multiplication(6,7);
+
+function division(number1, number2){
+    uitkomst = number1 / number2;
+    document.write(number1 + ' : ' + number2 + ' = ' + uitkomst + "<br>");
+    console.log(uitkomst);
+    return number1 / number2;
+}
+
+division(144,12);
+
+
+function increment(number){
+    number = 12;
+    const a = i++;
+    uitkomst = number
+}
+
+increment();
