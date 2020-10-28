@@ -50,4 +50,4 @@ function decrement(number){
     document.write(number +' - 1' + ' = ' + --number);
 }
 
-decrement(34)
+decrement(34);
