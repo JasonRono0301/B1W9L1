@@ -3,13 +3,7 @@
 
 
 function namen(){
-    while(namen =! test){
-      var test =  prompt('TEST');
-        if (test = 'stop'){
-                    document.write('test');
-                }     
-    }
-    
+
 }
 
 namen();
